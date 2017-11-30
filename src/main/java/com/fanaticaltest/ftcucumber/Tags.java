@@ -1,7 +1,10 @@
 package com.fanaticaltest.ftcucumber;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import java.util.Collection;
 
+@SpringBootApplication
 public class Tags {
 
     public static String getId(Collection<String> tags) {
