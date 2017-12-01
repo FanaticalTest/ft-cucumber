@@ -1,8 +1,7 @@
 buildscript {
 	ext {
 		springBootVersion = '1.5.8.RELEASE'
-		ftConfigVersion = '0.1.0'
-		libVersion = '0.0.1'
+		libVersion = '0.0.2'
 	}
 	repositories {
 		mavenCentral()
@@ -33,7 +32,6 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
-	compile("com.fanaticaltest:ft-config:${ftConfigVersion}")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
